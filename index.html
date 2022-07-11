@@ -1,0 +1,221 @@
+<html>
+<head>
+<style>
+.header{
+	background-color: linen;
+	padding:20px;
+	/* text-align:left; */
+}
+.btn{
+	font-size:18px;
+	float: right;
+}
+/* ------Nav Bar Style begins----------- */
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #55d6aa;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+	float:right;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left:70px;
+	padding:25px;
+	position:relative;
+}
+nav a{
+	color:#444;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+}
+nav a:hover{
+	color:#000;
+}
+nav a::before{
+	content:";
+	display:block;
+	height:5px;
+	background-color:#444;
+	position:absolute;
+	top:0;
+	width:0%;
+	transition:all ease-in-out 250ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+
+
+
+.middle{
+	padding:200px;
+	text-align:center;
+	background-image:url("travelingPlace1.jpg");
+	opacity:0.9;
+	color:white;
+}
+.wrapper{
+	padding:50px;
+	text-align:center;
+	width:1200px;
+	height:3500px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color:white;
+	opacity:0.9;
+	}
+.content{
+	background-color:black;
+	opacity:0.8;
+	color:white;
+	font-size:30px;
+	border:10px solid black;
+	font-family:"Times New Roman",Times,serif;
+	padding:20px;
+}
+.footer{
+	background-color:LightSkyBlue;
+	padding:10px;
+	text-align:center;
+	font-size:20px;
+	color-black;
+}
+body{
+	border:5px solid black;
+}
+	
+</style>
+</head>
+
+<body>
+<div class="header">
+<! part 1 ..>
+<! Inside this would be all html contents for header ..>
+<img src="travellogo.png" height="70" width="70"/>
+
+<button class="btn"><a href="Login.html">Login</a></button>
+</div>
+
+<header>	
+<div class="container">
+	
+
+<nav>
+
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="Hotels.html">Hotels</a></li>
+	<li><a href="VeniceArt.html">Venice Art</a></li>
+	<li><a href="ContactUs.html">Contact</a></li>
+	<li><a href="Venice_FAQ.html">FAQ</a></li>
+	</ul>
+
+	</nav>
+</div>
+</header>
+<div class="middle">
+<! Inside this will be the html content for Image div ..>
+<h1 class="content">
+"WELCOME TO MY FAVOURITE DESTINATION IN THE WORLD"
+</h1>
+</div>
+
+<div >
+<! Inside this will be the html content for description ..>
+
+<p class="content">
+Venice,the capital of northen Italy's Veneto region, is built on 
+more than 100 small islands in a lagoon in the Adriatic Sea. It has
+no roads, just canals - including the Grand Canal thoroughfare-lined 
+with Renaissance and Gothic palaces. The central square, Piazz San 
+Marco, contains St. Mark's Basilica, which is tiled width Byzantine 
+mosaics, and the Camanile bell tower offering views of the city's 
+red roofs.</p>
+<h1> 5 GREAT PLACES TO VISIT IN VENICE</H1>
+
+</div>
+
+
+<div class="wrapper">
+<ol>
+<li>
+
+<h1 style="font-size:30px;">BASICICA DI SAN MARCO</h1>
+
+<img src="basilica di san marco.jpg"/>
+
+<p> Basilica di San Marco is the most important church in the city
+and one of the most important monuments in italy, fot its opulent 
+design, gold ground mosaics, and its status as a sumbol of Venetian
+wealth and power, from the 11 th century on the building has been
+known by the nickname Chiesa d'Oro(Church of gold).
+</p>
+</li>
+
+<li>
+<h2 style="font-size:30px;">PALAZZO DUCALE</h2>
+<img src="palazzo-ducale.jpg"/>
+<p> Palzzo Ducale is a masterpiece of Gothic art and repository of
+innumerable art treasures, it features a number of different and 
+intricate architectural details, dating from the 9th century. 
+</p>
+</li>
+
+<li>
+<h3 style="font-size:30px;">PONTE DEI SOSPIRI</h3>
+<img src="ponte dei sospiri.jpg"/>
+<p> Ponte dei Sospiri is a baroque bridge that once connected Palazzo
+Ducale to the prisons. The bridge of sighs is one Venice's most
+important sights.</p>
+</li>
+<li>
+<h4 style="font-size:30px;">CANAL GRANDE</h4>
+<img src="canal-grande3.jpg"/>
+<p> Canal Grande is known as the most beautiful street in the world.
+The Canal Grande is the main waterway of Venice lined in both sides
+by an uninterrupted series of palaces and materpieces.
+</p>
+</li>
+<li>
+<h5 style="font-size:30px;">TEATRO LA FENICE</h5>
+<img src="teatro la fenice3.jpg"/>
+<p> Teatro La Fenice was twice destroyed by fire and twice restored
+to its former spledour. For centuries La Fenice has been Venice's
+principal stage for world-class opers, music, theater and ballet.
+</p>
+</li>
+</ol>
+
+</div>
+
+<div class="footer"> 
+<! Inside this will be html content for footer ..>
+<p> To know more about venice visit..
+<a href="https://www.britannica.com/place/Venice/History">Venice/History
+</a>
+</p>
+</div> 
+</body>
+</html>

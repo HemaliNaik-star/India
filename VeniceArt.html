@@ -1,0 +1,162 @@
+<html>
+<head>
+<style>
+.header{
+	background-color: linen;
+	padding:20px;
+	text-align:left;
+}
+.btn{
+	font-size:18px;
+	float: right;
+}
+
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #55d6aa;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+	float:right;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left:70px;
+	padding:25px;
+	position:relative;
+}
+nav a{
+	color:#444;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+}
+nav a:hover{
+	color:#000;
+}
+nav a::before{
+	content:";
+	display:block;
+	height:5px;
+	background-color:#444;
+	position:absolute;
+	top:0;
+	width:0%;
+	transition:all ease-in-out 250ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+
+
+h2.shadow{
+text-shadow:2px 2px;
+}
+h3.shadow{
+text-shadow:2px 2px red;
+}
+.rotatetimg90{
+	transform:rotate(90deg);
+}
+#cf{
+	position:relative;
+	height:200px;
+	width:200px;
+	float:left;
+	margin:15px;
+}
+#cf img{
+	position:absolute;
+	transition:opacity 1s ease-in-out;
+}
+#cf img.top:hover{
+	opacity:0;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<! part 1 ..>
+<! Inside this would be all html contents for header ..>
+<img src="travellogo.png" height="70" width="70"/>
+
+<button class="btn">Login</button>
+</div>
+
+<header>	
+<div class="container">
+	
+
+<nav>
+
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="Hotels.html">Hotels</a></li>
+	<li><a href="VeniceArt.html">Venice Art</a></li>
+	<li><a href="ContactUs.html">Contact</a></li>
+	<li><a href="Venice_FAQ.html">FAQ</a></li>
+	</ul>
+
+	</nav>
+</div>
+</header>
+
+
+<h2 class="shadow"> YOU'RE GOING TO LOVE VENICE</H2>
+<h3 class="shadow">Great hadicaft</h3>
+<img class="rotatetimg90" src="https://www.asatours.com.au/wp-content/uploads/2017/12/Venice-Italy-image-MuranoGlassInWindow-byChristopherWood-web-870x470.jpg"
+width="200" height="200" />
+<div>
+<p class="content":>
+The art of hadicragt in Venice is as unique and passionate as it 
+wascenturies ago. You can savour a Venice of almost another era,
+discovering the secrets of master crafrsmen that will create under
+your eyes the "pearls" of Venice's top handcrft tradition: velvets,
+brocades, books, frames, furnishings, leather bindings, Carnival 
+masks and other wonders.</p></div>
+<h3 class="shadow">The Lagoon's Islands</h3>
+
+<div class="content">
+<p class="content"> 
+Thinking that Venice itself is an archipelago, with its 118 islands
+interconnected over time by more than 400 bridges, is still remarkable.
+But the outer island of the Lagoon offer some of the most fascinating
+spots of the entire area. In addition to Murano, renowned glass-
+making centre, and Burano, famous for its colourful painted houses,
+other islands are worth a visit Sant'Erasmo -a vegtable garden since
+"Serenissima" times- or Mazzorbo, with its few brightly- painted
+houses 'sprinkled' among the vineyards, fruit orchards and vegetable
+fields.</p>
+</div>
+<div id="cf">
+
+<img class="bottom" src="https://d3hne3c382ip58.cloudfront.net/resized/750x420/venice-the-lagoon-islands-and-the-po-delta-port-to-port-cruise-tour-2-443292_1553148004.JPG"
+width="300" height="150"/>
+
+<img class="top" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/9d/0f/3d.jpg"
+width="300" height="150"/>
+</div>
+
+</body>
+</html>
+

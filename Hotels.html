@@ -1,0 +1,208 @@
+<html>
+<head>
+<style>
+.header{
+	background-color: linen;
+	padding:20px;
+	text-align:left;
+}
+.btn{
+	font-size:18px;
+	float: right;
+}
+
+.container{
+	width:80%;
+	margin: 0 auto;
+}
+
+header{
+	background: #55d6aa;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav{
+	float:right;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+nav li{
+	display:inline-block;
+	margin-left:70px;
+	padding:25px;
+	position:relative;
+}
+nav a{
+	color:#444;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:14px;
+}
+nav a:hover{
+	color:#000;
+}
+nav a::before{
+	content:";
+	display:block;
+	height:5px;
+	background-color:#444;
+	position:absolute;
+	top:0;
+	width:0%;
+	transition:all ease-in-out 250ms;
+}
+nav a:hover::before{
+	width:100%;
+}
+
+
+.styled-table{
+	border-collapse:collapse;
+	margin:25px 30px;
+	font-size:0.9em;
+	font-family:sans-serif;
+	min-width:400px;
+	width:95%;
+	box-shadow:0 0 20px rgba(0,0,0,0.15);
+}
+thead tr{
+	background-color:#009879;
+	color:#ffffff;
+	text-align:center;
+}	
+th,td{
+	padding:12px 15px;
+}
+tr{
+	border-bottom:1px solid #dddddd;
+}
+tr:nth-of-type(even){
+	background-color:#f3f3f3;
+}
+tr:last-of-type{
+	border-bottom:2px solid #009879;
+}
+tr:active{
+	font-weight:bold;
+	color:#009879;
+	
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="header">
+<! part 1 ..>
+<! Inside this would be all html contents for header ..>
+<img src="travellogo.png" height="70" width="70"/>
+
+<button class="btn">Login</button>
+</div>
+
+<header>	
+<div class="container">
+	
+
+<nav>
+
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="Hotels.html">Hotels</a></li>
+	<li><a href="VeniceArt.html">Venice Art</a></li>
+	<li><a href="ContactUs.html">Contact</a></li>
+	<li><a href="Venice_FAQ.html">FAQ</a></li>
+	</ul>
+
+	</nav>
+</div>
+</header>
+<br>
+
+<Table border=1 align=center>
+<th colspan=14><h2>Venice Places to Stay</h2></th>
+
+<table class="styled-table">
+<thead>
+	<tr>
+	<th colspan=4>Image</th>
+	<th colspan=4>HotelName</th>
+	<th colspan=4>Price</th>
+	<th colspan=4>Facilities</th>
+	</tr>
+</thead>
+	<tr>
+	<td colspan=4>
+	<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/28/c6/9b/hotel-gondolas-grand.jpg?w=400&h=300&s=1"
+	alt="" height=200 width=200 /></td>
+	<td colspan=4>HOTEL ANTICHE FIGURE</TD>	
+	<td colspan=4>Rs.26,094</td>
+	<td colspan=4>Free Wifi,
+	Bar/Lounge,
+	Taking safety measures,
+	Special offer.
+	</td>
+	</tr>
+
+	<tr>
+	<td colspan=4>
+	<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/d4/c1/7b/hotel-canal-grande.jpg?w=400&h=300&s=1"
+	alt="" height=200 width=200 /></td>
+	<td colspan=4>HOTEL CANAL GRANDE</TD>	
+	<td colspan=4>Rs. 22,099</td>
+	<td colspan=4>Free Wifi,
+	Taking safety measures,
+	Special offer and
+	Visit hotel website</td>
+	</tr>
+	
+	
+	<tr>
+	<td colspan=4>
+	<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/2a/8b/f5/palazzo-veneziano.jpg?w=400&h=300&s=1"
+	alt="" height=200 width=200 /></td>
+	<td colspan=4>HOTEL PALAZZO VENEZIANO</TD>	
+	<td colspan=4>Rs.32,948</td>
+	<td colspan=4>Free Wifi,
+	Room service,
+	Taking safety measures.
+	</td>
+	</tr>
+	<tr>
+	<td colspan=4>
+	<img src="http://citta-di-milano.venice.hotels-veneto.com/data/Photos/OriginalPhoto/3161/316109/316109525.JPEG"
+	alt="" height=200 width=200 /></td>
+	<td colspan=4>HOTEL MILANO STUCKY VENICE</TD>	
+	<td colspan=4>Rs.26,009</td>
+	<td colspan=4>Taking safety measures.
+	</td>
+	</tr>
+	<tr>
+	<td colspan=4>
+	<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/a9/c5/ed/sina-centurion-palace.jpg?w=400&h=300&s=1"
+	alt="" height=200 width=200 /></td>
+	<td colspan=4>SINA CENTURION PALACE</TD>	
+	<td colspan=4>Rs.37,623</td>
+	<td colspan=4>Taking safety measures,
+	Special offer
+	</td>
+	</tr>
+</table>
+	
+	
+</body>
+</html>
+
